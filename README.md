@@ -24,10 +24,9 @@
 ## 仓库目录结构说明
 
 ```text
-├── data/                       # ChnSentiCorp 原始清洗数据集
-│   ├── train.tsv               # 训练集 (9,146 条)
-│   ├── dev.tsv                 # 验证集
-│   └── test.tsv                # 测试集 (1,200 条)
+├── train.tsv                   # 训练集 (9,146 条)
+├── dev.tsv                     # 验证集
+├── test.tsv                    # 测试集 (1,200 条)
 ├── baselines/                  # 传统机器学习基线轨道
 │   └── baseline_ml.py          # TF-IDF + LR 核心流水线
 ├── proposed_bert/              # 主力深度学习方案
