@@ -34,4 +34,9 @@
 ├── ablation_studies/           # 严谨学术消融实验
 │   ├── train_bert_scratch.py   # 消融 1：随机初始化训练
 │   └── train_bert_frozen.py    # 消融 2：主干网络参数冻结
-└── requirements.txt            # 项目最小核心环境依赖
+├── outputs_and_analysis/       # 实验输出与深度定性分析 (加分项)
+│   ├── ml_error_cases.csv      # 传统机器学习基线预测错误的 161 条“错题本”
+│   ├── bert_loss_curve.png     # BERT 微调过程中的损失函数收敛趋势图
+│   └── training_metrics.log    # 各轨道模型训练全量日志与吞吐量记录
+└── requirements.txt            # 项目最小核心环境依赖 （本次实验我使用的是Python 3.11.12）
+
